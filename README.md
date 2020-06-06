@@ -6,6 +6,6 @@ Entwicklung Interaktiver Systeme
 # Vorschau des Projektes
 
 ![Lebensmittel-Inventar](./MS2/Artefakte/Detailed%20UI/Inventar.png) 
-![Lebensmittel-Angebote](./MS2/Artefakte/Detailed%UI/Angebote.png) 
+![Lebensmittel-Angebote](./MS2/Artefakte/Detailed%20UI/Angebote.png) 
 
 
