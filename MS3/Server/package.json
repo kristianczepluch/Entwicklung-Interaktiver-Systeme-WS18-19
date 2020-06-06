@@ -21,7 +21,7 @@
     "express": "^4.16.4",
     "firebase-admin": "^6.5.0",
     "joi": "^13.7.0",
-    "mongoose": "^5.4.2",
+    "mongoose": "^5.7.5",
     "request": "^2.88.0",
     "underscore": "^1.9.1"
   }
