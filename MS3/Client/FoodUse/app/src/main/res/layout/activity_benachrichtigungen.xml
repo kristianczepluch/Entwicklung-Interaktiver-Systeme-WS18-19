@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer5">
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Benachrichtigungen">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/button_navigation"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        app:titleTextColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        app:titleMarginStart="150dp"
+        android:background="#F79862"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" >
+
+        <ImageButton
+            android:id="@+id/hamburmenu_btn_benachrichtigungen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="?android:selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar_inventar"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar_inventar"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="@+id/toolbar_inventar"
+            app:layout_constraintTop_toTopOf="@+id/toolbar_inventar"
+            app:srcCompat="@drawable/ic_menu_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Benachrichtigungen"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+    </android.support.v7.widget.Toolbar>
+
+</android.support.constraint.ConstraintLayout>
+
+<android.support.design.widget.NavigationView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:menu="@menu/sidebar_navigation"
+android:layout_gravity="start"
+android:id="@+id/meinebenachrichtigungen_sidebarnav"
+app:headerLayout="@layout/navigation_header"></android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>

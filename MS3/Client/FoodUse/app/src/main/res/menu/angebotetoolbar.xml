@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itemangebote1"
+        android:title="Nach Relevanz sortieren"
+        android:iconTint="#FFFFFF"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/itemangebote2"
+        android:title="Mobilität festlegen"
+        android:iconTint="#FFFFFF"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/itemangebote4"
+        android:title="Radius festlegen"
+        android:iconTint="#FFFFFF"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/itemangebote3"
+        android:title="Suche"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:iconTint="#FFFFFF"
+        app:showAsAction="ifRoom"/>
+
+</menu>

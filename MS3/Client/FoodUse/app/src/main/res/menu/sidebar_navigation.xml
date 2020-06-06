@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/meinaccount" android:title="Mein Account" android:textSize="30sp">
+    </item>
+    <item android:id="@+id/ernährungsprofil" android:title="Mein Ernährungsprofil" android:textSize="30sp">
+    </item>
+    <item android:id="@+id/meineangebote" android:title="Meine Angebote" android:textSize="30sp">
+    </item>
+    <item android:id="@+id/meinenachrichten" android:title="Meine Nachrichten" android:textSize="30sp">
+    </item>
+    <item android:id="@+id/rezeptefinden" android:title="Rezepte finden" android:textSize="30sp">
+    </item>
+    <item android:id="@+id/hilfe" android:title="Hilfe" android:textSize="30sp">
+    </item>
+    <item android:id="@+id/impressum" android:title="Impressum" android:textSize="30sp">
+    </item>
+    <item android:id="@+id/logout" android:title="Log Out" android:textSize="30sp">
+    </item>
+</menu>

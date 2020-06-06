@@ -1,0 +1,4 @@
+- Für die Standortfunktion bitte die Berechtigung in den Einstellungen freigeben, da ansonsten die App abstürzt.
+- Einstellungen -> Apps -> FoodUse -> Berechtigungen ,
+- Gibt lediglich den aktuellen Standort aus und ist nicht Teil des Alleinstellungsmerkmals, 
+  sondern nötige Funktion,um Realisierbarkeit der Projektes abzuschätzen.

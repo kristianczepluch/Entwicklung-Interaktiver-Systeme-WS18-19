@@ -1,0 +1,24 @@
+{
+  "name": "eis",
+  "version": "1.0.0",
+  "description": "Eis Projekt von Kristian Czepluch und Denise Kuebler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristianczepluch/EISWS1819CzepluchKuebler.git"
+  },
+  "author": "Kristian Czepluch, Denise Kuebler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristianczepluch/EISWS1819CzepluchKuebler/issues"
+  },
+  "homepage": "https://github.com/kristianczepluch/EISWS1819CzepluchKuebler#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "firebase-admin": "^6.4.0",
+    "underscore": "^1.9.1"
+  }
+}
