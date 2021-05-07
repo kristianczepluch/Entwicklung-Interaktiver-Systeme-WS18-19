@@ -19,6 +19,6 @@
   "dependencies": {
     "express": "^4.16.4",
     "firebase-admin": "^6.4.0",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
